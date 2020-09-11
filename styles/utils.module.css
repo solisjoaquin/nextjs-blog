@@ -4,6 +4,11 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    /*color del title en archivo index*/
+    /* color: rebeccapurple; */
+  background: -webkit-linear-gradient(rgb(0, 124, 240),rgb(0, 223, 216));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   
   .headingXl {
@@ -12,6 +17,7 @@
     font-weight: 800;
     letter-spacing: -0.05rem;
     margin: 1rem 0;
+    
   }
   
   .headingLg {
