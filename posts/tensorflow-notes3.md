@@ -3,7 +3,6 @@ title: 'Tensorflow notes course part3'
 date: '2020-01-01'
 ---
 
-##Convolutions
 A little introduction to convolution would be like implementing a filter to our pixels matrix. That will change the values of our image. One example of this is pooling. 
 
 ## Pooling

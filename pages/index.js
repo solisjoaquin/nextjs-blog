@@ -20,8 +20,12 @@ export default function Home({allPostsData}) {
         </p>
         <p>
           You can contact me on{' '}
-          <a href="https://twitter.com/joaquinsolis93">Twitter</a> and 
-          {' '}<a href="https://linkedin.com/in/joaquinsolis"> Linkedin</a>.
+          <a href="https://twitter.com/joaquinsolis93" target="_blank">Twitter</a> and 
+          {' '}<a href="https://linkedin.com/in/joaquinsolis" target="_blank"> Linkedin</a>.
+        </p>
+
+        <p>
+          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" target="_blank">My resume</a>
         </p>
 
 
