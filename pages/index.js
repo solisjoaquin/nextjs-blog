@@ -15,10 +15,8 @@ export default function Home({allPostsData}) {
       <section className={utilStyles.headingMd}>
 
         
-        <p>I'm a web developer with focus on frontend development. 
-          Skills include work team player with agile methodologies and 
-          creative problem solver. Able to create good designed websites.
-
+        <p>Hi, I'm <strong>Joaquin</strong>. I'm a web developer with focus on frontend development. 
+          I like to share what I learn. I also write about data science.
         </p>
         <p>
           You can contact me on{' '}
@@ -30,7 +28,7 @@ export default function Home({allPostsData}) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Blog &#128193;</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
