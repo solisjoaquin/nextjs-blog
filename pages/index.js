@@ -27,7 +27,7 @@ export default function Home({allPostsData}) {
         </p>
 
         <p>
-          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" target="_blank">My resume</a><br />
+          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" target="_blank">My resume (pdf on Drive)</a><br />
           <a href="https://github.com/solisjoaquin" target="_blank">Github</a>
         </p>
 
