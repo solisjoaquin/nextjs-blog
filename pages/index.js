@@ -19,13 +19,16 @@ export default function Home({allPostsData}) {
           I like to share what I learn. I also write about data science.
         </p>
         <p>
-          You can contact me on{' '}
+          You can contact me on
+          {' '}
           <a href="https://twitter.com/joaquinsolis93" target="_blank">Twitter</a> and 
-          {' '}<a href="https://linkedin.com/in/joaquinsolis" target="_blank"> Linkedin</a>.
+          {' '}
+          <a href="https://linkedin.com/in/joaquinsolis" target="_blank"> Linkedin</a>.
         </p>
 
         <p>
-          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" target="_blank">My resume</a>
+          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" target="_blank">My resume</a><br />
+          <a href="https://github.com/solisjoaquin" target="_blank">Github</a>
         </p>
 
 
