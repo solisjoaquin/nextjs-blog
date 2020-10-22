@@ -26,13 +26,23 @@ export default function Home({allPostsData}) {
           <a href="https://linkedin.com/in/joaquinsolis" target="_blank"> Linkedin</a>.
         </p>
 
-        <p>
-          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" target="_blank">My resume (pdf on Drive)</a><br />
-          <a href="https://github.com/solisjoaquin" target="_blank">Github</a>
-        </p>
-
-
       </section>
+
+      <div className="grid">
+          <a href="https://github.com/solisjoaquin" className="card">
+            <h3>My Github </h3>
+            <p>Discover my proyects in my Github account.</p>
+          </a>
+
+          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" className="card">
+            <h3>My resume </h3>
+            <p>Check my resume to know more about me. (Drive pdf )</p>
+          </a>
+
+
+        </div>
+
+
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog &#128193;</h2>
