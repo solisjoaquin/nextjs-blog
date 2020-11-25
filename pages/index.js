@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 
 
-export default function Home({allPostsData}) {
+export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
@@ -14,14 +14,16 @@ export default function Home({allPostsData}) {
       </Head>
       <section className={utilStyles.headingMd}>
 
-        
-        <p>Hi, I'm <strong>Joaquin</strong>. I'm a web developer with focus on frontend development. 
-          I like to share what I learn. I also write about data science.
+
+        <p>Hi, I'm <strong>Joaquin</strong>.
+        I'm a frontend developer. BYU-I online student.
         </p>
+
+
         <p>
           You can contact me on
           {' '}
-          <a href="https://twitter.com/joaquinsolis93" target="_blank">Twitter</a> and 
+          <a href="https://twitter.com/joaquinsolis93" target="_blank">Twitter</a> and
           {' '}
           <a href="https://linkedin.com/in/joaquinsolis" target="_blank"> Linkedin</a>.
         </p>
@@ -29,18 +31,18 @@ export default function Home({allPostsData}) {
       </section>
 
       <div className="grid">
-          <a href="https://github.com/solisjoaquin" className="card">
-            <h3>My Github </h3>
-            <p>Discover my proyects in my Github account.</p>
-          </a>
+        <a href="https://github.com/solisjoaquin" className="card">
+          <h3>My Github </h3>
+          <p>Discover my proyects in my Github account.</p>
+        </a>
 
-          <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" className="card">
-            <h3>My resume </h3>
-            <p>Check my resume to know more about me. (Drive pdf )</p>
-          </a>
+        <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" className="card">
+          <h3>My resume </h3>
+          <p>Check my resume to know more about me. (Drive pdf )</p>
+        </a>
 
 
-        </div>
+      </div>
 
 
 
@@ -49,15 +51,15 @@ export default function Home({allPostsData}) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          
+              <Link href="/posts/[id]" as={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+
           ))}
         </ul>
       </section>
