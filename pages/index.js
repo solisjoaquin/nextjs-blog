@@ -18,12 +18,13 @@ export default function Home({ allPostsData }) {
         <p>Hi, I'm <strong>Joaquin</strong>.
         I'm a Full-stack Developer. BYU-I online student.
         </p>
-        <p>My favorites technologies are:</p>
+        <p>I build things with:</p>
         <div className="flex">
-          <i class="fab fa-js-square"></i>
-          <i class="fab fa-react"></i>
-          <i class="fab fa-node-js"></i>
-          <i class="fab fa-java"></i>
+          <i class="fab fa-js-square" title="Javascript"></i>
+          <i class="fab fa-css3-alt" title="CSS3"></i>
+          <i class="fab fa-react" title="React"></i>
+          <i class="fab fa-node-js" title="NodeJS"></i>
+          <i class="fab fa-java" title="Java"></i>
         </div>
 
 
