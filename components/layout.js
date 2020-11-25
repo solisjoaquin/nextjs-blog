@@ -16,23 +16,12 @@ export default function Layout({ children, home }) {
           name="description"
           content="Joaquin Solis Website "
         />
-        {/* <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        /> */}
 
         <meta
           property="og:image"
           content={`https://og-image.now.sh/**joaquinsolis**.com.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Freact.svg`}
         />
-
-
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card"
-          content={`https://og-image.now.sh/**joaquinsolis**.com.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg&images=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Freact.svg`}
-        /* content="summary_large_image" */ />
 
 
       </Head>
