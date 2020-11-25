@@ -16,8 +16,15 @@ export default function Home({ allPostsData }) {
 
 
         <p>Hi, I'm <strong>Joaquin</strong>.
-        I'm a frontend developer. BYU-I online student.
+        I'm a Full-stack Developer. BYU-I online student.
         </p>
+        <p>My favorites technologies are:</p>
+        <div className="flex">
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node-js"></i>
+          <i class="fab fa-java"></i>
+        </div>
 
 
         <p>
