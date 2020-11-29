@@ -16,7 +16,8 @@ export default function Home({ allPostsData }) {
 
 
         <p>Hi, I'm <strong>Joaquin</strong>.
-        I'm a Full-stack Developer. BYU-I online student.
+        I'm a Full-stack Developer and Math teacher. As a teacher, I've worked in highschools
+        and as a freelance. As a developer, I've worked in non-profit organizations and personal proyects.
         </p>
         <p>I build things with:</p>
         <div className="flex">
@@ -25,16 +26,17 @@ export default function Home({ allPostsData }) {
           <i class="fab fa-react" title="React"></i>
           <i class="fab fa-node-js" title="NodeJS"></i>
           <i class="fab fa-java" title="Java"></i>
+
         </div>
 
 
-        <p>
+        {/* <p>
           You can contact me on
           {' '}
           <a href="https://twitter.com/joaquinsolis93" target="_blank">Twitter</a> and
           {' '}
           <a href="https://linkedin.com/in/joaquinsolis" target="_blank"> Linkedin</a>.
-        </p>
+        </p> */}
 
       </section>
 

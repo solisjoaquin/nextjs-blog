@@ -34,6 +34,14 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <div className="flex">
+              <a href="https://twitter.com/joaquinsolis93" target="_blank"><i class="fab fa-twitter" title="twitter"></i></a>
+              <a href="https://linkedin.com/in/joaquinsolis" target="_blank"><i class="fab fa-linkedin" title="linkedin"></i></a>
+              <a href="https://github.com/solisjoaquin" target="_blank"><i class="fab fa-github" title="github"></i></a>
+
+
+
+            </div>
           </>
         ) : (
             <>
@@ -51,6 +59,7 @@ export default function Layout({ children, home }) {
                   <a className={utilStyles.colorInherit}>{name}</a>
                 </Link>
               </h2>
+
             </>
           )}
       </header>
