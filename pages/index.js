@@ -16,8 +16,8 @@ export default function Home({ allPostsData }) {
 
 
         <p>Hi, I'm <strong>Joaquin</strong>.
-        I'm a Full-stack Developer and Math teacher. As a teacher, I've worked in highschools
-        and as a freelance. As a developer, I've worked in non-profit organizations and personal proyects.
+        I'm a Full-stack Developer and Math teacher. As a teacher, I've worked in high schools
+        and as a freelance. As a developer, I've worked in non-profit organizations and personal projects.
         </p>
         <p>I build things with:</p>
         <div className="flex">
