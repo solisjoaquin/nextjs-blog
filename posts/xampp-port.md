@@ -1,11 +1,11 @@
 ---
 title: 'Como liberar un puerto (problema tipico de XAMPP)'
-date: '2020-29-11'
+date: '2020-11-29'
 ---
 
 
 
-![img](https://www.rbjuarez.com/wp-content/uploads/2019/10/destacada-xampp-1024x538.jpg)
+![img](https://www.mccmarketingseo.es/wp-content/uploads/2020/06/destacada-xampp-1024x538-1.jpg)
 
 Si estas aprendiendo sobre servidores locales o tenes varios programas que usan los mismos puertos (VMware, MySQL, etc.), seguramente al abrir Xampp te marcó algunos errores y no te dejaba iniciar Apache o MySQL.
 
