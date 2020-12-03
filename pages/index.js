@@ -41,12 +41,12 @@ export default function Home({ allPostsData }) {
       </section>
 
       <div className="grid">
-        <a href="https://github.com/solisjoaquin" className="card">
+        <a href="https://github.com/solisjoaquin" target="_blank" className="card">
           <h3>My Github </h3>
           <p>Discover my proyects in my Github account.</p>
         </a>
 
-        <a href="https://drive.google.com/file/d/1qzVFPlrR-5FND2UoXlPoF_1H7pKc043I/view?usp=sharing" className="card">
+        <a href="https://drive.google.com/file/d/1qzVFPlrR-5FND2UoXlPoF_1H7pKc043I/view?usp=sharing" target="_blank" className="card">
           <h3>My resume </h3>
           <p>Check my resume to know more about me. (Drive pdf )</p>
         </a>
