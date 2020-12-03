@@ -46,7 +46,7 @@ export default function Home({ allPostsData }) {
           <p>Discover my proyects in my Github account.</p>
         </a>
 
-        <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing" className="card">
+        <a href="https://drive.google.com/file/d/1qzVFPlrR-5FND2UoXlPoF_1H7pKc043I/view?usp=sharing" className="card">
           <h3>My resume </h3>
           <p>Check my resume to know more about me. (Drive pdf )</p>
         </a>
