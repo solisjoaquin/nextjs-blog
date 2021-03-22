@@ -11,6 +11,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </Head>
       <section className={utilStyles.headingMd}>
 
@@ -24,13 +26,6 @@ export default function Home({ allPostsData }) {
 
       </section>
 
-      <h2>Resume</h2>
-
-      <p>Click <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing">here</a> to download my resume.</p>
-
-      <h2>Experience</h2>
-      <p><strong>Math teacher</strong>- 2019-2021 - Secondary School N° 796 Comodoro Rivadavia</p>
-
       <h2>Skills</h2>
 
       <div className="flex">
@@ -41,6 +36,21 @@ export default function Home({ allPostsData }) {
         <i class="fab fa-java" title="Java"></i>
 
       </div>
+
+      <h2>Resume</h2>
+
+      <p>Click <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing">here</a> to download my resume.</p>
+
+      <h2>Proyects</h2>
+      <p><strong>WeTutorial</strong> Learn to code in groups. (React, NextJS, Tailwind) <a href="https://wetutorial.club/"> Demo</a></p>
+      <p><strong>Aerolab Challenge</strong> Reedem products with your coins. (React, NextJs, Styled Components) <a href="https://aerolab-next-joaquinsolis.vercel.app/"> Demo</a></p>
+      <p><strong>MemoryFruits </strong>Fall Guys Memotest game. (React, Styled Components) <a href="https://memoryfruit.netlify.app/"> Demo</a></p>
+      <p><strong>AlkemyWallet </strong> A digital wallet to register your incomes and purchases.(Node, React, Tailwind)<a href="https://github.com/solisjoaquin/Alkemy-JS"> Demo</a></p>
+
+      <h2>Experience</h2>
+      <p><strong>Math teacher</strong>- 2019-2021 - Secondary School N° 796 Comodoro Rivadavia</p>
+
+
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog &#128193;</h2>
