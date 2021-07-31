@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
             <div className="flex">
-              <a href="https://twitter.com/joaquinsolis93" target="_blank"><i class="fab fa-twitter" title="twitter"></i></a>
+              <a href="https://twitter.com/joaquin__solis" target="_blank"><i class="fab fa-twitter" title="twitter"></i></a>
               <a href="https://linkedin.com/in/joaquinsolis" target="_blank"><i class="fab fa-linkedin" title="linkedin"></i></a>
               <a href="https://github.com/solisjoaquin" target="_blank"><i class="fab fa-github" title="github"></i></a>
 
@@ -44,24 +44,24 @@ export default function Layout({ children, home }) {
             </div>
           </>
         ) : (
-            <>
+          <>
+            <Link href="/">
+              <a>
+                <img
+                  src="/images/profile.jpeg"
+                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                  alt={name}
+                />
+              </a>
+            </Link>
+            <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a>
-                  <img
-                    src="/images/profile.jpeg"
-                    className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                    alt={name}
-                  />
-                </a>
+                <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/">
-                  <a className={utilStyles.colorInherit}>{name}</a>
-                </Link>
-              </h2>
+            </h2>
 
-            </>
-          )}
+          </>
+        )}
       </header>
       <main>{children}</main>
       {!home && (

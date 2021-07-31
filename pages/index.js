@@ -18,8 +18,8 @@ export default function Home({ allPostsData }) {
 
 
         <p>Hi, I'm <strong>Joaquin</strong>.
-        I'm a Full-stack Developer and a Math teacher. I live in Argentina and I'm currently
-        doing a Bachelor's in Applied Technology in BYU-Idaho.
+          I'm a Frontend Developer working at <a href="https://ripio.com/">Ripio</a>. I live in Argentina and I'm currently
+          doing a Bachelor's in Applied Technology in BYU-Idaho.
         </p>
 
 
@@ -33,22 +33,24 @@ export default function Home({ allPostsData }) {
         <i class="fab fa-css3-alt" title="CSS3"></i>
         <i class="fab fa-react" title="React"></i>
         <i class="fab fa-node-js" title="NodeJS"></i>
-        <i class="fab fa-java" title="Java"></i>
 
       </div>
 
       <h2>Resume</h2>
 
-      <p>Click <a href="https://drive.google.com/file/d/12fNjbpz2jRzgnNw34xiV_aoM2t2w2InW/view?usp=sharing">here</a> to download my resume.</p>
+      <p>Click <a href="https://drive.google.com/file/d/1oQlIOejWk3PhHDgv3I1518Q9SsioVw8G/view?usp=sharing">here</a> to download my resume.</p>
 
       <h2>Projects</h2>
       <p><strong>WeTutorial</strong> Learn to code in groups. (React, NextJS, Tailwind) <a href="https://wetutorial.club/"> Demo</a></p>
       <p><strong>Aerolab Challenge</strong> Reedem products with your coins. (React, NextJs, Styled Components) <a href="https://aerolab-next-joaquinsolis.vercel.app/"> Demo</a></p>
       <p><strong>MemoryFruits </strong>Fall Guys Memotest game. (React, Styled Components) <a href="https://memoryfruit.netlify.app/"> Demo</a></p>
-      <p><strong>AlkemyWallet </strong> A digital wallet to register your incomes and purchases.(Node, React, Tailwind)<a href="https://github.com/solisjoaquin/Alkemy-JS"> Demo</a></p>
+      <p><strong>NFT Marketplace </strong> A marketplace to buy digital art.(React, NextJS, Tailwind)<a href="https://github.com/solisjoaquin/nft-marketplaceS"> Repo</a></p>
+      <p><strong>AlkemyWallet </strong> A digital wallet to register your incomes and purchases.(Node, React, Tailwind)<a href="https://github.com/solisjoaquin/Alkemy-JS"> Repo</a></p>
 
       <h2>Experience</h2>
-      <p><strong>Math teacher</strong>- 2019-2021 - Secondary School N° 796 Comodoro Rivadavia</p>
+      <p><strong>Frontend Developer</strong> Jul 2021 - Present - Ripio</p>
+      <p><strong>Software Developer</strong> Mar 2021 - Jul 2021 - Devsar</p>
+      <p><strong>Math teacher</strong> 2019 - 2021 - Secondary School N° 796 Comodoro Rivadavia</p>
 
 
 
