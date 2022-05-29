@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
       <p>Click <a href="https://drive.google.com/file/d/1oQlIOejWk3PhHDgv3I1518Q9SsioVw8G/view?usp=sharing">here</a> to download my resume.</p>
 
       <h2>Projects &#128640;</h2>
-      <p><strong>WeTutorial</strong> Learn to code in groups. (React, NextJS, Tailwind) <a href="https://wetutorial.club/"> Demo</a></p>
+      <p><strong>WeTutorial</strong> Learn to code in groups. (React, NextJS, Tailwind) <a href="https://wetutorial.vercel.app/"> Demo</a></p>
       <p><strong>Aerolab Challenge</strong> Reedem products with your coins. (React, NextJs, Styled Components) <a href="https://aerolab-next-joaquinsolis.vercel.app/"> Demo</a></p>
       <p><strong>MemoryFruits </strong>Fall Guys Memotest game. (React, Styled Components) <a href="https://memoryfruit.netlify.app/"> Demo</a></p>
       <p><strong>NFT Marketplace </strong> A marketplace to buy digital art.(React, NextJS, Tailwind)<a href="https://github.com/solisjoaquin/nft-marketplaceS"> Repo</a></p>
